@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.header-text {
+    max-width: 350px;
+    margin-top: 140px;
+}
+
+.header-text h1 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 21px;
+    margin-top: 14px;
+}
+
+.square {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px;
+}
+
+.common-btn {
+    background: #f67c92;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: 2px salmon;
+    margin-top: 15px;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.common-btn:hover {
+    background: plum;
+    color: black;
+}
+
+.line {
+    margin: 15px;
+    line-height: 8px;
+    margin-top: 100px;
+}
+
+.line1 {
+    height: 12px;
+    width: 12px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line2 {
+    height: 1px;
+    width: 80px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line3 {
+    height: 1px;
+    width: 60px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.sidenav {
+    width: 250px;
+    height: 100vh;
+    z-index: 2;
+    background: #f67c92;
+    right: -250px;
+    top: 0;
+    position: fixed;
+    transition: 0.5s;
+}
+
+nav ul li {
+    margin: 50px 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-btn {
+    width: 50px;
+    right: 65px;
+    top: 35px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.about {
+    padding: 100px 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-left-col {
+    flex-basis: 50%;
+}
+
+.about-left-col img {
+    width: 100%;
+}
+
+.about-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.about-text h3 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.offer {
+    padding: 100px 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer-left-col {
+    flex-basis: 50%;
+}
+
+.offer-left-col img {
+    width: 100%;
+}
+
+.offer-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.offer-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.offer-text h2 {
+    margin: 50px 0 10px;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.offer-text h3 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.features-col img {
+    width: 100px;
+}
+
+.features-col h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.features-btn {
+    margin: 40px 0 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.features-btn .linea {
+    text-align: right;
+    margin-right: 25px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.features-btn .lineb {
+    text-align: left;
+    margin-left: 25px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.courses {
+    padding: 100px 0;
+}
+
+.courses-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.courses-right-col {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.courses-left-col {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.courses-right-col img {
+    width: 100%;
+}
+
+.contact {
+    padding: 100px 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-left-col {
+    flex-basis: 50%;
+}
+
+.contact-left-col img {
+    width: 100%;
+}
+
+.contact-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.contact-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.btn-box {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-box input {
+    margin: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.footer {
+    padding: 50px 0 30px;
+}
+
+hr {
+    border: 1px solid #f67c92;
+    width: 100%;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-right-col {
+    flex-basis: 35%;
+    margin-top: 60px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-titles h4 {
+    color: palevioletred;
+    font-size: 22px;
+}
+
+.footer-links small {
+    color: palevioletred;
+    font-size: 15px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.footer-logo,
+.copyright-text {
+    flex-basis: 40%;
+}
+
+.copyright-text {
+    color: palevioletred;
+    font-size: 20px;
+}
+
+.social-icons {
+    width: 70px;
+    top: 50%;
+    left: 0;
+    position: fixed;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-icons img {
+    width: 20px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 770px) {
+    .header {
+        background: none;
+    }
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo {
+        margin-top: 25%;
+        width: 70px;
+    }
+    .header-text {
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .menu-btn {
+        width: 40px;
+        right: 50px;
+    }
+    .common-btn {
+        padding: 10px 16px;
+        background: #f67c92;
+        outline: none;
+        border: 2px solid salmon;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .common-btn:hover {
+        background: plum;
+        color: black;
+        border: 2px solid plum;
+    }
+    .social-icons img {
+        width: 14px;
+        margin: 15px 5px;
+    }
+    .about-left-col,
+    .about-right-col {
+        flex-basis: 100%;
+    }
+    .about-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2 {
+        font-style: italic;
+        font-size: 18px;
+    }
+    .features-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .courses-left-col {
+        flex-basis: 100%;
+    }
+    .courses-right-col {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .offer-left-col,
+    .offer-right-col {
+        flex-basis: 100%;
+    }
+    .offer-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .offer-text h2 {
+        font-style: italic;
+        font-size: 18px;
+    }
+    .contact-left-col,
+    .contact-right-col {
+        flex-basis: 100%;
+    }
+    .contact-text {
+        text-align: right;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .footer-left-col,
+    .footer-right-col {
+        flex-basis: 100%;
+    }
+    .link-titles {
+        flex-basis: 25%;
+        margin: 30px;
+    }
+}
